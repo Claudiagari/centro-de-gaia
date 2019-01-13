@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color:#e4f9f5;
+}
+nav{
+ background: linear-gradient(rgba(0, 0, 0, 0.299), rgba(0, 0, 0, 0.299)), url(../assets/images/fondo-header.jpg)no-repeat center center;
+  background-size: cover;
+}
+ul.nav{
+  font-family: 'Tenor Sans', sans-serif;
+  background: #30e3ca;
+  
+}
+.nav li a {
+  display: inline-block;
+  font-family:  'Oswald', sans-serif;
+  color: #40514e;
+  padding: 15px 15px;
+  text-decoration: none; 
+}
+.nav li {
+  list-style: none;
+  
+}
+.nav li a:hover, .nav li a:active {
+  background:#11999e;
+}
+
+a.title{
+  font-family: 'Architects Daughter', cursive;
+  color: #308dbc;
+  font-size: 35px;
+}
+.logo{
+  margin-right: 15px;
+  height: 60px;
+  width: 60px;
+}
+.bg-light{
+  background-color: #ffff! important;
+  padding: 25px 16px;
+}
+.navbar-light .navbar-brand{
+  color: #fff;
+  
+}
+.span-header{
+  font-family: 'Architects Daughter', cursive;
+  font-size: 25px;
+  color: #308dbc;
+}
+#green{
+  color: #00ff00;
+}
+#yellow{
+  color:#fff200;
+}
+#pink{
+  color:#ff00af;
+}
+.banner {
+  background: linear-gradient(rgba(0,0,0, .7), rgba(0,0,0,.7)), url(../assets/images/galaxia.jpg) no-repeat center center;
+  background-size: cover;
+  padding-top: 40px;
+}
+.banner h1, .banner h4{
+  color:#ffff;
+}
+.banner .row:nth-child(3){
+  padding: 34px 300px;
+}
+.banner .row:nth-child(3) h4{
+  color:  #ac5581
+}
+.section-1 div:nth-child(3) .row {
+  padding: 50px 0 0 0 ;
+ }
+ .section-1 div:nth-child(2) .row h2{
+   color: #40514e;
+ }
+ .container-fluid.alternativa{
+   background:#30e3ca;
+   padding:60px 130px;
+ }
+ .circulo{
+   border: 5px solid #40514e;
+   border-radius: 50%;
+ }
+ .slick-slide img {
+   display: inline-block !important;
+}
+.slick-dots{
+  bottom:-50px!important;
+}
+.slick-prev:before, .slick-next:before{
+  font-size: 0px !important;
+}
+div.container.slider.text-center {
+   margin: 120px auto;
+  
+ }
+
+ 
+ footer {
+   background: #40514e;
+   color: #fff;
+   padding: 25px 0px
+ }
+ 
+ 
+ footer ul
+  li {
+ 
+    list-style: none;
+  }
+  
+ /*footer ul {
+    margin: 2em 0;
+  }
+  
+ footer li {
+    margin: 1em;
+    margin-left: 3em;
+  }
+  
+ footer li:before {
+    content: '\f3c5';
+    font-family: 'FontAwesome';
+    float: left;
+    margin-left: -1.5em;
+    color: #0074D9;
+  }*/
+@media (max-width:768px){
+  a.title{
+    font-size: 36px;
+  }
+    .logo{
+    height: 60px;
+    width: 60px;
+  }
+  .banner .row:nth-child(3){
+    padding: 20px 0px;
+  }
+}
