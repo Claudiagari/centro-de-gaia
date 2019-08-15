@@ -77,28 +77,28 @@ function SamplePrevArrow(props) {
         <h2></h2>
         <Slider {...settings}>
           <div>
-           <img src={foto8} className="img-fluid" alt=""/>
+           <img src={foto8} className="img-fluid" alt="armonizadores"/>
           </div>
           <div>
-          <img src={foto2} className="img-fluid" alt=""/>
+          <img src={foto2} className="img-fluid" alt="activadores"/>
           </div>
           <div>
-          <img src={foto3} className="img-fluid" alt=""/>
+          <img src={foto3} className="img-fluid" alt="izipay"/>
           </div>
           <div>
-          <img src={foto4} className="img-fluid" alt=""/>
+          <img src={foto4} className="img-fluid" alt="elementales"/>
           </div>
           <div>
-          <img src={foto5} className="img-fluid" alt=""/>
+          <img src={foto5} className="img-fluid" alt="bach"/>
           </div>
           <div>
-          <img src={foto6} className="img-fluid" alt=""/>
+          <img src={foto6} className="img-fluid" alt="limbico"/>
           </div>
           <div>
-          <img src={foto7} className="img-fluid" alt=""/>
+          <img src={foto7} className="img-fluid" alt="chakras"/>
           </div>
           <div>
-          <img src={foto1} className="img-fluid" alt=""/>
+          <img src={foto1} className="img-fluid" alt="angelical"/>
           </div>
         </Slider>
       </div>
